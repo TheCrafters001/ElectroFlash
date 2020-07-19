@@ -1,7 +1,27 @@
-<input type="file" id="file-input" accept=".flv, .swf, .fla, .swt, .swc" />
+<html>
+    <head>
+        <title>ElectroFlash</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="./ico/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./ico/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./ico/favicon-16x16.png">
+        <link rel="manifest" href="./ico/site.webmanifest">
+        <link rel="mask-icon" href="./ico/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="./ico/favicon.ico">
+        <meta name="apple-mobile-web-app-title" content="ElectroFlash">
+        <meta name="application-name" content="ElectroFlash">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="./ico/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <input type="file" id="file-input" accept=".flv, .swf, .fla, .swt, .swc" />
 
-<embed id="file-content">
+        <span id="output" src=""></span>
 
-<p><a href="./test.html">Open Test Page</a></p>
+        <p><a href="./test.html">Open Test Page</a></p>
 
-<script src="./render.js"></script>
+        <script src="./js/FileReader3.js"></script>
+    </body>
+</html>
+
+
