@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/TheCrafters001/ElectroFlash#readme",
   "dependencies": {
-    "electron": "^9.1.0"
+    "electron": "^9.3.0"
   }
 }
